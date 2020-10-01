@@ -1,6 +1,7 @@
 package com.example.democrat;
 
 import androidx.appcompat.app.AppCompatActivity;
+import com.squareup.picasso.Picasso;
 
 import android.os.Bundle;
 

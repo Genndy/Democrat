@@ -8,5 +8,6 @@
     <color name="colorText">#ff5f52</color>
     <color name="colorTextHead">#ffffff</color>
     <color name="colorTextDescription">#454545</color>
+    <color name="colorlightAttribute">#858585</color>
 
 </resources>

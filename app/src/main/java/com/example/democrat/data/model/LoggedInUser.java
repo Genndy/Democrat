@@ -62,7 +62,6 @@ public class LoggedInUser implements Parcelable{
         public LoggedInUser[] newArray(int size) {
             return new LoggedInUser[size];
         }
-
         public LoggedInUser parse(JSONObject json){
             Intrinsics.checkParameterIsNotNull(json, "json");
             int id = json.optInt("id", 0);

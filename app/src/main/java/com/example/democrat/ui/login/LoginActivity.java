@@ -103,7 +103,7 @@ public class LoginActivity extends AppCompatActivity {
 //                        .getVKApiConfig();
 //                VK.setConfig(testConfig);
 //                System.out.println("VKApiCpnfig прошёл");
-                // Request to VK
+                // Request to VK 
              //   VK.execute(new UserGet<LoggedInUser>("account.getProfileInfo"), new VKApiCallback(){
                 VK.execute(new UserGet<String>("account.getProfileInfo"), new VKApiCallback(){
                     @Override
